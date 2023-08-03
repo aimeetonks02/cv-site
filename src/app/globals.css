@@ -17,7 +17,8 @@
 }
 
 body {
-  
+  background-color: antiquewhite;
+  font-family: 'Borel', cursive;
 }
 
 h1{
@@ -31,3 +32,25 @@ nav{
   padding: 4px 8px;
 }
 
+ul, li{
+  text-decoration: none;
+}
+
+footer{
+  font-family: 'Borel', cursive;
+  background-color: #67B1C2;
+  color: #F6F3EF;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: fit-content;
+  padding: 10px;
+}
+
+.intro {   
+  object-fit: cover;   
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  z-index: 0;
+}
