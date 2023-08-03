@@ -4,12 +4,19 @@ import React from 'react'
 export default function Home() {
   return (
     <div>
-      <section>
+      <div className='intro'>
         <video autoPlay muted loop className='intro'>         
-          <source src="/introVid.mp4" type="video/mp4"/>       
+          <source src="/introVid.mp4" type="video/mp4"/>  
+          <p>Sorry, your browser doesn't support video elements</p>     
         </video>
-      </section>
-      <div>
+      </div>
+      <div className='separator'>
+        <div className='item'/>
+        <div className='item'/>
+        <div className='item'/>
+        <div className='item'/>
+      </div>
+      <div className='fill'>
         <h1>this is just some filler so that i can see if the video and footer move</h1>
         <h1>this is just some filler so that i can see if the video and footer move</h1>
         <h1>this is just some filler so that i can see if the video and footer move</h1>
@@ -21,10 +28,10 @@ export default function Home() {
 
       </div>
       <footer>
-        <p><b>Find me on other platforms:</b></p>
+        <h3><b>Find me on other platforms:</b></h3>
         <ul>
-          <li>LinkedIn</li>
-          <li>GitHub</li>
+          <li><a href='https://www.linkedin.com/in/aimee-tonks-1a3b5622b/'>LinkedIn</a></li>
+          <li><a href='https://github.com/aimeetonks02'>GitHub</a></li>
         </ul>
       </footer>
     </div>

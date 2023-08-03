@@ -17,8 +17,10 @@
 }
 
 body {
-  background-color: antiquewhite;
+  background-color: #F6F3EF;
   font-family: 'Borel', cursive;
+  padding: 0%;
+  margin: 0%;
 }
 
 h1{
@@ -32,6 +34,10 @@ nav{
   padding: 4px 8px;
 }
 
+a:hover{
+  color: #d6cec2;
+}
+
 ul, li{
   text-decoration: none;
 }
@@ -40,7 +46,7 @@ footer{
   font-family: 'Borel', cursive;
   background-color: #67B1C2;
   color: #F6F3EF;
-  position: fixed;
+  position: static;
   bottom: 0;
   width: 100%;
   height: fit-content;
@@ -48,9 +54,33 @@ footer{
 }
 
 .intro {   
-  object-fit: cover;   
+  object-fit: cover; 
+  background-color: #67B1C2;  
   width: 100%;
   height: 100vh;
-  position: fixed;
+  position: static;
   z-index: 0;
+  margin-bottom: 15px;
+}
+
+.fill{
+  padding: 15px 10px;
+  overflow: hidden;
+}
+
+.separator{
+  display: flex;
+  height: 100px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+}
+
+.item{
+  height: 75px;
+  width: 75px;
+  background-color: #AFBF8C;
+  border: 5px solid #141313;
+  border-radius: 100%;
 }
