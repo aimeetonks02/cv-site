@@ -16,15 +16,18 @@ export default function Home() {
         <div className='item'/>
         <div className='item'/>
       </div>
+      <div className='title'>
+        <h1>Hi, I'm Aimee</h1>
+      </div>
       <div className='fill'>
-        <h1>this is just some filler so that i can see if the video and footer move</h1>
-        <h1>this is just some filler so that i can see if the video and footer move</h1>
-        <h1>this is just some filler so that i can see if the video and footer move</h1>
-        <h1>this is just some filler so that i can see if the video and footer move</h1>
-        <h1>this is just some filler so that i can see if the video and footer move</h1>
-        <h1>this is just some filler so that i can see if the video and footer move</h1>
-        <h1>this is just some filler so that i can see if the video and footer move</h1>
-        <h1>this is just some filler so that i can see if the video and footer move</h1>
+        <p>this is just some filler so that i can see if the video and footer move</p>
+        <p>this is just some filler so that i can see if the video and footer move</p>
+        <p>this is just some filler so that i can see if the video and footer move</p>
+        <p>this is just some filler so that i can see if the video and footer move</p>
+        <p>this is just some filler so that i can see if the video and footer move</p>
+        <p>this is just some filler so that i can see if the video and footer move</p>
+        <p>this is just some filler so that i can see if the video and footer move</p>
+        <p>this is just some filler so that i can see if the video and footer move</p>
 
       </div>
       <footer>

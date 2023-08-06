@@ -24,14 +24,9 @@ body {
 }
 
 h1{
-  font-size: 36px;
-}
-
-nav{
-  background-color: #dec2ba;
-  font-size: 28px;
-  font-weight: 600;
-  padding: 4px 8px;
+  font-size: 72px;
+  text-align: center;
+  text-decoration: underline;
 }
 
 a:hover{
@@ -64,8 +59,17 @@ footer{
 }
 
 .fill{
+  height: fit-content;
+  width: 1100px;
+  background-color: #ffbd59;
+  margin: 15px auto;
   padding: 15px 10px;
-  overflow: hidden;
+  border: 5px solid #141313;
+  border-radius: 24px;
+}
+
+.fill>p{
+  font-size: 36px;
 }
 
 .separator{
