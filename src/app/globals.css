@@ -21,6 +21,7 @@ body {
   font-family: 'Borel', cursive;
   padding: 0%;
   margin: 0%;
+  font-size: 20px;
 }
 
 h1{
@@ -29,12 +30,24 @@ h1{
   text-decoration: underline;
 }
 
+h2, h3{
+  font-size: 28px;
+  text-decoration: underline;
+}
+
 a:hover{
   color: #d6cec2;
 }
 
-ul, li{
+li {
+  margin-left: 18px;
+  list-style-type: circle;
+  text-decoration-color: #141313;
+}
+
+footer > li{
   text-decoration: none;
+  list-style-type: none;
 }
 
 footer{
@@ -58,11 +71,16 @@ footer{
   margin-bottom: 15px;
 }
 
+.title{
+  text-align: center;
+  font-weight: 600;
+}
+
 .fill{
   height: fit-content;
-  width: 1100px;
+  width: fit-content;
   background-color: #ffbd59;
-  margin: 15px auto;
+  margin: 15px 30px;
   padding: 15px 10px;
   border: 5px solid #141313;
   border-radius: 24px;
@@ -87,4 +105,30 @@ footer{
   background-color: #AFBF8C;
   border: 5px solid #141313;
   border-radius: 100%;
+}
+
+.section{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-evenly;
+  overflow: hidden;
+}
+
+.year{
+  background-color: #F6F3EF;
+  height: fit-content;
+  width: fit-content;
+  padding: 10px;
+  margin: 10px;
+  border: 5px solid #141313;
+  border-radius: 24px;
+}
+
+.share{
+  width: 50%;
+}
+
+small{
+  font-weight: bold;
 }

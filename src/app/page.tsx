@@ -1,5 +1,8 @@
 import Image from 'next/image'
 import React from 'react'
+import School from './schoolInfo'
+import Work from './workExp'
+import Courses from './comCourses'
 
 export default function Home() {
   return (
@@ -10,32 +13,37 @@ export default function Home() {
           <p>Sorry, your browser doesn't support video elements</p>     
         </video>
       </div>
+
       <div className='separator'>
         <div className='item'/>
         <div className='item'/>
         <div className='item'/>
         <div className='item'/>
       </div>
+
       <div className='title'>
         <h1>Hi, I'm Aimee</h1>
+        <p>Welcome to my Digital CV!</p>
       </div>
-      <div className='fill'>
-        <p>this is just some filler so that i can see if the video and footer move</p>
-        <p>this is just some filler so that i can see if the video and footer move</p>
-        <p>this is just some filler so that i can see if the video and footer move</p>
-        <p>this is just some filler so that i can see if the video and footer move</p>
-        <p>this is just some filler so that i can see if the video and footer move</p>
-        <p>this is just some filler so that i can see if the video and footer move</p>
-        <p>this is just some filler so that i can see if the video and footer move</p>
-        <p>this is just some filler so that i can see if the video and footer move</p>
 
+      <div className='section'>
+        <div className='share'>
+          <Work/>
+        </div>
+
+        <div className='share'>
+          <Courses/>
+        </div>
       </div>
+      <div>
+        <School/>
+      </div>
+
       <footer>
         <h3><b>Find me on other platforms:</b></h3>
-        <ul>
-          <li><a href='https://www.linkedin.com/in/aimee-tonks-1a3b5622b/'>LinkedIn</a></li>
-          <li><a href='https://github.com/aimeetonks02'>GitHub</a></li>
-        </ul>
+          <a href='https://www.linkedin.com/in/aimee-tonks-1a3b5622b/'>LinkedIn</a><br/>
+          <a href='https://github.com/aimeetonks02'>GitHub</a><br/>
+          <p>aimztonks@gmail.com</p>
       </footer>
     </div>
   )
