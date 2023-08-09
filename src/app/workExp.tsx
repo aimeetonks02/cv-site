@@ -37,11 +37,11 @@ export default function Work() {
             <ul>
                 <li>Learnt how to keep track of stock and fill out order forms</li>
                 <li>Learnt integral money handling skills</li>
-            </ul>
+            </ul><br/>
             <p><b><em>Point of Interest</em></b></p>
-            <p>This job inspired me to create my A Level project in order to improve the stores efficiency. I built 
-                a program that would keep track of stock levels and automatically reorder products when they hit a certain
-                level.
+            <p>This job inspired me to create my A Level project in order to improve the shop's efficiency. I built 
+                a program that would keep track of stock levels, automatically reorder products when they hit a certain
+                level and email the business owner with what, and how much of each product, was ordered.
             </p>
         </div>
     </div>

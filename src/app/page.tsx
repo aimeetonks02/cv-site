@@ -3,6 +3,7 @@ import React from 'react'
 import School from './schoolInfo'
 import Work from './workExp'
 import Courses from './comCourses'
+import Language from './languages'
 
 export default function Home() {
   return (
@@ -32,7 +33,13 @@ export default function Home() {
         </div>
 
         <div className='share'>
-          <Courses/>
+          <div>
+            <Courses/>
+          </div>
+
+          <div>
+            <Language/>
+          </div>
         </div>
       </div>
       <div>

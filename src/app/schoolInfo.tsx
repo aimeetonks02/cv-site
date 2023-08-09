@@ -51,12 +51,14 @@ export default function School() {
             <small><b>2019-2021</b></small>
             <div className='year'>
                 <p>3 x A Levels: Grades ABC</p>
+                <small>Including Computer Science (Grade A)</small>
                 <p>1 x AS Level: Grade A</p>
             </div>
             <h2><b><u>Brayton Academy</u></b></h2>
             <small><b>2014-2019</b></small>
             <div className='year'>
                 <p>11 GCSEs: Grades 8-5</p>
+                <small>Including Maths (Grade 8), Computer Science (Grade 7), and English (Grade 6)</small>
             </div>
         </div>
     </div>
