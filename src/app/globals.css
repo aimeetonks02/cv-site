@@ -78,7 +78,6 @@ footer{
 
 .fill{
   height: fit-content;
-  width: fit-content;
   background-color: #ffbd59;
   margin: 15px 30px;
   padding: 15px 10px;
@@ -118,7 +117,6 @@ footer{
 .year{
   background-color: #F6F3EF;
   height: fit-content;
-  width: fit-content;
   padding: 10px;
   margin: 10px;
   border: 5px solid #141313;
@@ -134,16 +132,20 @@ footer{
   display: block;
 }
 
-.year > img{
+.year > img, .flex >img{
   height: 80px;
   width: fit-content;
   margin: 10px;
   padding: 5px;
   border: 5px solid #141313;
   border-radius: 24px;
-  background-color: #AFBF8C;
+  background-color: #ffbd59;
 }
 
 small{
   font-weight: bold;
+}
+
+.flex{
+  display: flex;
 }

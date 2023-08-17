@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import React from 'react'
 
 export default function Courses() {
@@ -9,10 +8,9 @@ export default function Courses() {
         <div className='year'>
             <h2>Courses from Scrimba:</h2>
             <ul>
-                <li>Learn HTML and CSS</li>
-                <li>Learn JavaScript</li>
-                <li>Learn React</li>
-                <li>Learn Responsive Design</li>
+                <li>Learn HTML and CSS - <a href='https://scrimba.com/learn/htmlandcss'>(Click Here)</a></li>
+                <li>Learn JavaScript - <a href='https://scrimba.com/learn/learnjavascript'>(Click Here)</a></li>
+                <li>Learn React - <a href='https://scrimba.com/learn/learnreact'>(Click Here)</a></li>
             </ul>
         </div>
     </div>

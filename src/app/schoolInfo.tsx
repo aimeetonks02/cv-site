@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import React from 'react'
 
 export default function School() {
@@ -57,8 +56,8 @@ export default function School() {
             <h2><b><u>Brayton Academy</u></b></h2>
             <small><b>2014-2019</b></small>
             <div className='year'>
-                <p>11 GCSEs: Grades 8-5</p>
-                <small>Including Maths (Grade 8), Computer Science (Grade 7), and English (Grade 6)</small>
+                <p>11 GCSEs: Grades 8-5 (A*-C)</p>
+                <small>Including Maths (Grade 8/A*), Computer Science (Grade 7/A), and English (Grade 6/B)</small>
             </div>
         </div>
     </div>

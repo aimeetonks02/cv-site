@@ -1,9 +1,10 @@
-import Image from 'next/image'
 import React from 'react'
 import School from './schoolInfo'
 import Work from './workExp'
 import Courses from './comCourses'
 import Language from './languages'
+import Dissertation from './dissertation'
+import Intro from './intro'
 
 export default function Home() {
   return (
@@ -27,9 +28,13 @@ export default function Home() {
         <p>Welcome to my Digital CV!</p>
       </div>
 
+      <div>
+        <Intro/>
+      </div>
       <div className='section'>
         <div className='share'>
           <Work/>
+          <Dissertation/>
         </div>
 
         <div className='share'>
