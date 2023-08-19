@@ -13,7 +13,7 @@ export default function Language() {
                 <h2>Python</h2>
                 <small>Time Practiced: 8 Years</small>
                 <p>Originally, I started learning Python with my dad when I was in Primary School, however, 
-                    I wouldn't say that I officially started programming in Python until the beginning of 
+                    I wouldn&apos;t say that I officially started programming in Python until the beginning of 
                     high school as this was the language we used in our classes.
                 </p> <br/>
                 <p>It is also the language I used to write my A level project at College.</p>
@@ -23,7 +23,7 @@ export default function Language() {
                 <h2>Java</h2>
                 <small>Time Practiced: 2 Years</small>
                 <p>During my time at college I had experienced small parts of coding in Java, 
-                    however, it wasn't until going to university that I actually began using it 
+                    however, it wasn&apos;t until going to university that I actually began using it 
                     in practice. The vast majority of my modules involve coding in Java to some extent 
                     so I have had a very insightful time learning how to adapt to the new syntax.
                 </p><br/>
@@ -40,8 +40,8 @@ export default function Language() {
                 <small>Time Practiced: 2 Years</small>
                 <p>Despite only beginning to use HTML in the past couple of years, it has quickly become one 
                     of my favourite languages to use and inspired my passion to become a web developer. Two of the 
-                    modules I took during my time at Keele were 'Web Technologies' in my second year and I am due to 
-                    take 'Advanced Web Technologies' in my third year.
+                    modules I took during my time at Keele were &apos;Web Technologies&apos; in my second year and I am due to 
+                    take &apos;Advanced Web Technologies&apos; in my third year.
                 </p> <br/>
                 <p>These modules allowed me to get a solid base understanding of HTML and CSS, and allowing me to build 
                     my first websites and publish them on my Github.

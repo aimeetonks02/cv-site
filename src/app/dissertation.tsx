@@ -18,8 +18,8 @@ export default function Dissertation() {
                 to write my dissertation on that sector and its possible issues regarding job security.
             </p><br/>
             <p>For the dissertation, I will create a website myself and then also use avilable AI tools to 
-                attempt to recreate the same site. From there, I will discuss the strengths nd weaknesses of both, 
-                as well as interviewing people who work in those sectors to see if they can tell which was made by who. 
+                attempt to recreate the same site. From there, I will discuss the strengths and weaknesses of both, 
+                as well as interviewing people who work in those sectors to see if they can tell which was made by whom. 
             </p>
         </div>
         <div className='year'>

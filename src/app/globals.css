@@ -3,17 +3,22 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+  --step--2: clamp(0.58rem, calc(0.73rem + -0.19vw), 0.69rem);
+  --step--1: clamp(0.83rem, calc(0.82rem + 0.07vw), 0.88rem);
+  --main: clamp(1.00rem, calc(0.89rem + 0.54vw), 1.31rem);
+  --h3: clamp(1.20rem, calc(0.93rem + 1.34vw), 1.97rem);
+  --h2: clamp(1.44rem, calc(0.91rem + 2.63vw), 2.95rem);
+  --h1: clamp(1.73rem, calc(0.79rem + 4.70vw), 4.43rem);
+  --step-4: clamp(2.07rem, calc(0.48rem + 7.95vw), 6.64rem);
+  --step-5: clamp(2.49rem, calc(-0.11rem + 13.01vw), 9.97rem);
+  --space-3xs-2xs: clamp(0.31rem, calc(0.20rem + 0.54vw), 0.63rem);
+  --space-2xs-xs: clamp(0.56rem, calc(0.43rem + 0.65vw), 0.94rem);
+  --space-xs-s: clamp(0.88rem, calc(0.74rem + 0.65vw), 1.25rem);
+  --space-s-m: clamp(1.13rem, calc(0.86rem + 1.30vw), 1.88rem);
+  --space-m-l: clamp(1.69rem, calc(1.40rem + 1.41vw), 2.50rem);
+  --space-l-xl: clamp(2.25rem, calc(1.73rem + 2.61vw), 3.75rem);
+  --space-xl-2xl: clamp(3.38rem, calc(2.81rem + 2.83vw), 5.00rem);
+  --space-2xl-3xl: clamp(4.50rem, calc(3.46rem + 5.22vw), 7.50rem);
 }
 
 body {
@@ -21,17 +26,22 @@ body {
   font-family: 'Borel', cursive;
   padding: 0%;
   margin: 0%;
-  font-size: 20px;
+  font-size: var(--main);
 }
 
 h1{
-  font-size: 72px;
+  font-size: var(--h1);
   text-align: center;
   text-decoration: underline;
 }
 
-h2, h3{
-  font-size: 28px;
+h2{
+  font-size: var(--h2);
+  text-decoration: underline;
+}
+
+h3{
+  font-size: var(--h3);
   text-decoration: underline;
 }
 
@@ -58,7 +68,7 @@ footer{
   bottom: 0;
   width: 100%;
   height: fit-content;
-  padding: 10px;
+  padding: 1rem;
 }
 
 .intro {   
@@ -80,7 +90,7 @@ footer{
   height: fit-content;
   background-color: #ffbd59;
   margin: 15px 30px;
-  padding: 15px 10px;
+  padding: var(--space-m-l);
   border: 5px solid #141313;
   border-radius: 24px;
 }
@@ -92,15 +102,14 @@ footer{
 .separator{
   display: flex;
   height: 100px;
-  width: 600px;
-  margin-left: auto;
-  margin-right: auto;
+  width: max(5rem, 90%);
+  margin-inline: auto;
   justify-content: space-between;
 }
 
 .item{
-  height: 75px;
-  width: 75px;
+  height: clamp(2rem, 75px, 5rem);
+  width: clamp(2rem, 75px, 5rem);
   background-color: #AFBF8C;
   border: 5px solid #141313;
   border-radius: 100%;
@@ -108,23 +117,43 @@ footer{
 
 .section{
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  justify-content: space-evenly;
+  height: fit-content;
+  max-width: 100%;
+  margin-inline: auto;
+  justify-content:space-evenly;
   overflow: hidden;
+}
+
+@media (max-width: 900px) {
+  .section{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    max-width: 100%;
+    margin-inline: auto;
+    justify-content:space-evenly;
+    overflow: hidden;
+  } 
+  .intro {   
+    width: 100vw;
+    height: auto;
+    background-color: #67B1C2;  
+    position: static;
+    margin-bottom: 15px;
+  }
 }
 
 .year{
   background-color: #F6F3EF;
   height: fit-content;
-  padding: 10px;
-  margin: 10px;
+  padding: var(--space-s-m);
+  margin: 1rem;
   border: 5px solid #141313;
   border-radius: 24px;
 }
 
 .share{
-  width: 50%;
+  width: clamp(50%,90%);
 }
 
 .stack{
@@ -135,7 +164,7 @@ footer{
 .year > img, .flex >img{
   height: 80px;
   width: fit-content;
-  margin: 10px;
+  margin: 1rem;
   padding: 5px;
   border: 5px solid #141313;
   border-radius: 24px;
@@ -148,4 +177,5 @@ small{
 
 .flex{
   display: flex;
+  width: inherit;
 }
