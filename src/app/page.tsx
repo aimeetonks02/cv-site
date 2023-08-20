@@ -12,7 +12,7 @@ export default function Home() {
       <div className='intro'>
         <video autoPlay muted loop className='intro'>         
           <source src="/introVid.mp4" type="video/mp4"/>  
-          <p>Sorry, your browser doesn't support video elements</p>     
+          <p>Sorry, your browser doesn&apos;t support video elements</p>     
         </video>
       </div>
 
@@ -24,7 +24,7 @@ export default function Home() {
       </div>
 
       <div className='title'>
-        <h1>Hi, I'm Aimee</h1>
+        <h1>Hi, I&apos;m Aimee</h1>
         <p>Welcome to my Digital CV!</p>
       </div>
 
