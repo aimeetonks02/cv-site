@@ -25,6 +25,7 @@ jobs:
       - name: GetCallerIdentity
         run: |
           aws sts get-caller-identity
-      - name: ListS3Buckets
+      - name: Deploy
         run: |
-          aws s3 ls
+          npm run build 
+          tree out
