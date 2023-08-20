@@ -27,5 +27,6 @@ jobs:
           aws sts get-caller-identity
       - name: Deploy
         run: |
+          npm install
           npm run build 
           tree out
