@@ -30,3 +30,4 @@ jobs:
           npm install
           npm run build 
           tree out
+          aws s3 sync ./out s3://aimeecvsite-tonksdev-649683443955-eu-west-2
