@@ -23,7 +23,7 @@
 
 body {
   background-color: #F6F3EF;
-  font-family: 'Borel', cursive;
+  font-family: 'Borel', sans-serif;
   padding: 0%;
   margin: 0%;
   font-size: var(--main);
