@@ -10,14 +10,14 @@ export default function Dissertation() {
         </small>
         <div className='year'>
             <h2>Working title</h2>
-            <p><em>The Evolution of AI and its possible impact on Web Development</em></p>
+            <p><em>The effect of AI on Web Development and those in the sector</em></p>
         </div>
         <div className='year'>
             <h2>The Idea:</h2>
             <p>As I wish to become a web developer after I have graduated, I thought it would be apt 
                 to write my dissertation on that sector and its possible issues regarding job security.
             </p><br/>
-            <p>For the dissertation, I will create a website myself and then also use avilable AI tools to 
+            <p>For the dissertation, I will create a website myself and then also use AI tools - GitHub CoPilot, ChatGPT and others - to 
                 attempt to recreate the same site. From there, I will discuss the strengths and weaknesses of both, 
                 as well as interviewing people who work in those sectors to see if they can tell which was made by whom. 
             </p>
