@@ -32,17 +32,14 @@ body {
 h1{
   font-size: var(--h1);
   text-align: center;
-  text-decoration: underline;
 }
 
 h2{
   font-size: var(--h2);
-  text-decoration: underline;
 }
 
 h3{
   font-size: var(--h3);
-  text-decoration: underline;
 }
 
 a:hover{
