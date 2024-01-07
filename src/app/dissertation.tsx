@@ -4,9 +4,7 @@ export default function Dissertation() {
   return (
     <div className='fill'>
         <h1>Dissertation</h1>
-        <small>Here is an overview of my final year dissertation which will be
-            updated after I have finished university to a more accurate description of what I 
-            actually did.
+        <small>Here is an overview of my final year dissertation which will be updated as I progress through the year.
         </small>
         <div className='year'>
             <h2>Working title</h2>
@@ -18,20 +16,23 @@ export default function Dissertation() {
                 to write my dissertation on that sector and its possible issues regarding job security.
             </p><br/>
             <p>For the dissertation, I will create a website myself and then also use AI tools - GitHub CoPilot, ChatGPT and others - to 
-                attempt to recreate the same site. From there, I will discuss the strengths and weaknesses of both, 
-                as well as interviewing people who work in those sectors to see if they can tell which was made by whom. 
+                create multiple versions of the same website. From there, I will discuss the strengths and weaknesses of both methods, 
+                as well as interviewing people who work in the computing sector to see if they can tell which was made via each method. 
             </p>
         </div>
         <div className='year'>
-            <h2>Prediction:</h2>
-            <p>I expect to find that the AI can create individual parts of the website with relative ease, but cannot 
-                string all of them together easily. I think this will show how AI can be used to help developers with 
-                their projects but is not at risk of taking over jobs at any point in the near future.
+            <h2>Aims and Objectives:</h2>
+            <p>The aim of this project is to see if AI can be used to create websites and if so, how much of a risk does it pose 
+                to jobs in the web development industry.
             </p><br/>
-            <p>I also plan to mention how AI is very prone to commit copyright infringement, and also loves to produce 
-                methods or answers that are false when it does not have a suitable answer saved in its databank. This 
-                shows that AI cannot be left unchecked and still requires people to check it over and thusly cannot 
-                be responsible for jobs that are usually performed by humans.
+            <p>This will be accomplished by the following objectives:
+                <ul>
+                    <li>Review literature to get insights from professional bodies</li>
+                    <li>Interview experts in the field to get insights</li>
+                    <li>Learn how to use generative AI tools and use them to build a website</li>
+                    <li>Evaluate how much generative AI can help or replace a web developer</li>
+                    <li>Finally, present a conclusion supported by all of the above points</li>
+                </ul>
             </p>
         </div>
     </div>
