@@ -9,7 +9,7 @@ export default function Work() {
             <h2>Newcastle Academy</h2>
             <p>Teaching Assistant</p>
             <small>September 2023 - Present</small>
-            <p>For my 'Computing in Education' module, I have been working one day a week at a local highschool to 
+            <p>For my &apos;Computing in Education&apos; module, I have been working one day a week at a local highschool to 
                 gain experience in teaching Computing to secondary school students. I have been working with the 
                 Year 9 and Year 10 classes, helping them to learn Python and the theory of computing.
             </p>
