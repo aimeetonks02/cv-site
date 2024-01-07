@@ -21,7 +21,7 @@ export default function Work() {
                 <li>Learnt how to effectively communicate with students of different ages and abilities</li>
                 <li>Learnt how to plan and deliver a lesson</li>
                 <li>Learnt how to manage a classroom</li>
-                <li>Learnt how to use different teaching methods to help students understand</li>
+                <li>Learnt how to use different teaching methods to help students understand the content fully</li>
             </ul>
         </div>
         <div className='year'>
