@@ -17,14 +17,15 @@ export default function Home() {
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
         <link rel="manifest" href="/site.webmanifest"/>
       </head>
-      <div className='intro'>
+      
+      {/* <div className='intro'>
         <video autoPlay muted loop className='intro'>         
           <source src="/introVid.mp4" type="video/mp4"/>  
           <p>Sorry, your browser doesn&apos;t support video elements</p>     
         </video>
-      </div>
+      </div> */}
 
-      <div className='separator'>
+      {/* <div className='separator'>
         <div className='item'/>
         <div className='item'/>
         <div className='item'/>
@@ -34,7 +35,7 @@ export default function Home() {
       <div className='title'>
         <h1>Hi, I&apos;m Aimee</h1>
         <p>Welcome to my Digital CV!</p>
-      </div>
+      </div> */}
 
       {/* <div>
         <Intro/>
