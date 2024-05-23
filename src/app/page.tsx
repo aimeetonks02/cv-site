@@ -36,7 +36,7 @@ export default function Home() {
         <p>Welcome to my Digital CV!</p>
       </div>
 
-      <div>
+      {/* <div>
         <Intro/>
       </div>
       <div className='section'>
@@ -57,7 +57,7 @@ export default function Home() {
       </div>
       <div>
         <School/>
-      </div>
+      </div> */}
 
       <footer>
         <h3><b>Find me on other platforms:</b></h3>
